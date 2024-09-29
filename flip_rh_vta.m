@@ -1,5 +1,5 @@
 % Create the directory
-mkdir('./imaging/datasets/cd/derivatives/leadgroup/direc/vtas');
+mkdir('/Users/neuro-239/imaging/datasets/cd/derivatives/leadgroup/direc/vtas');
 
 % List of IDs
 ids = [10, 14, 15, 17, 24, 30, 31, 34, 35, 37, 38, 40, 48, 51, 52, 53, 54, 55, 56, 59, 60, 61];
