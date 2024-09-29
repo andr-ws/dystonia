@@ -9,8 +9,8 @@ for i = 1:length(ids)
     id = ids(i);
     
     % Define input and output file paths
-    input_file = sprintf('./imaging/datasets/cd/derivatives/sub-%d/stimulations/MNI152NLin2009bAsym/gs_direc/sub-%d_sim-binary_model-simbio_hemi-R.nii', id, id);
-    output_file = sprintf('./imaging/datasets/cd/derivatives/leadgroup/direc/vtas/sub-%d_sim-binary_model-simbio_hemi-R-to-L.nii', id);
+    input_file = sprintf('/Users/neuro-239/imaging/datasets/cd/derivatives/sub-%d/stimulations/MNI152NLin2009bAsym/gs_direc/sub-%d_sim-binary_model-simbio_hemi-R.nii', id, id);
+    output_file = sprintf('/Users/neuro-239/imaging/datasets/cd/derivatives/leadgroup/direc/vtas/sub-%d_sim-binary_model-simbio_hemi-R-to-L.nii', id);
     
     % Call the function ea_flip_lr_nonlinear
     ea_flip_lr_nonlinear(input_file, output_file, 1);
